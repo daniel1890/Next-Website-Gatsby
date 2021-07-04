@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "next-website",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Een website gebouwt voor next, de frontend zal gebouwt worden met gatsby en react-bootstrap, de website is vooral statisch maar waar backend nodig is zal strapi gebruikt worden.",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -14,8 +14,13 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "gatsby": "^3.8.1",
+    "gatsby-plugin-image": "^1.8.0",
+    "gatsby-plugin-sharp": "^3.8.0",
+    "gatsby-source-filesystem": "^3.8.0",
     "react": "^17.0.1",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {

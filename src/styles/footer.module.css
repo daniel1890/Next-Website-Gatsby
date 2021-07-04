@@ -1,0 +1,27 @@
+footer .container {
+  text-align: center;
+  color: #bbb;
+  margin: 40px auto;
+}
+
+footer {
+  width: 100%;
+  height: 15em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(2, 55, 112);
+}
+
+.content {
+  margin-top: 5em;
+  padding-top: 5em;
+}
+
+footer .blue {
+  background-color: rgb(2, 55, 112);
+}
+
+footer .orange {
+  background-color: rgb(201, 130, 0) 80%;
+}
