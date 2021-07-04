@@ -5,8 +5,8 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 
 export default function Navbartest() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="transparant" variant="dark">
-      <Navbar.Brand href="#home">
+    <Navbar collapseOnSelect expand="lg" bg="transparant" variant="light">
+      <Navbar.Brand>
         <div className="logo">
           <Link to="/">
             <StaticImage src="../images/logo-nextwork2-1.png" alt="logo" />
