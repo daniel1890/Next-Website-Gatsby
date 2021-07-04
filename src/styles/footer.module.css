@@ -21,12 +21,12 @@ footer .orange {
 }
 
 /* Resize footer wanneer het scherm smaller wordt, dit is nodig omdat er anders white space komt doordat de text in de footer de footer hoger maakt. */
-@media (max-width: 765px) {
+@media (max-width: 770px) {
   footer {
     height: 26em;
   }
 }
-@media (min-width: 760px) {
+@media (min-width: 770px) {
   footer {
     height: 20em;
   }

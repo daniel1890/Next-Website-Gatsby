@@ -20,7 +20,7 @@ export default function Navbar() {
           </Col>
           <Col>
             <h3>Colofon</h3>
-            <ul className="list-unstyled">
+            <ul class="list-unstyled">
               <li>Next@Work</li>
               <li>Simon Stevinweg 20</li>
               <li>6827 BT Arnhem</li>
