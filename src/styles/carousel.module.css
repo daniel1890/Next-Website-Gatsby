@@ -1,0 +1,6 @@
+.fullwidthcarousel {
+  width: 98vw;
+  position: relative;
+  margin-left: -49vw;
+  left: 50%;
+}

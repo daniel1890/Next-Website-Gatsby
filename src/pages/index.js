@@ -8,11 +8,11 @@ import Cards_Index from "../components/Cards_Index"
 export default function Home() {
   return (
     <Layout>
+      <CarouselComp />
       <div className="page-container">
         <div className="content-wrap">
           <Container>
-            <CarouselComp />
-            <div className={content}>
+            <div className="mt-5 mb-4">
               <h3 className="text-center">Update: Corona Maatregelen</h3>
               <p>
                 Wij zijn inmiddels weer geopend, maar wel met aanpassingen: Voor
