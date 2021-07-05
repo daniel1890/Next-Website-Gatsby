@@ -5,7 +5,7 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 main {
@@ -18,11 +18,7 @@ body {
 }
 body {
   overflow-x: hidden;
-  background: radial-gradient(
-    at top left,
-    rgb(235, 235, 235) 25%,
-    rgb(201, 130, 0) 95%
-  );
+
   background-repeat: no-repeat;
 }
 p {
@@ -64,7 +60,7 @@ nav .links a:hover {
   width: 100vw;
   position: relative;
   margin-left: -50vw;
-  height: 100px;
+  height: 1px;
   left: 50%;
   border-top: 1px dotted #838383;
 }
