@@ -1,9 +1,8 @@
 import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 import { footer, footertext } from "../styles/footer.module.css"
 import { Container, Row, Col } from "react-bootstrap"
 
-export default function Navbar() {
+export default function Footer() {
   let today = 2021
 
   return (
