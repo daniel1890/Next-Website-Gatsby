@@ -3,9 +3,8 @@ footer .container {
 }
 
 .footertext p,
-ul,
-h4,
-li {
+.footertext h4,
+.footertext li {
   color: white;
 }
 

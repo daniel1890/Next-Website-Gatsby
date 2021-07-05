@@ -7,18 +7,18 @@ export default function Activerend_Werk() {
   return (
     <Layout>
       <h2 className="text-center py-2">Activerend Werk</h2>
-      <p className="text-center">
+      <p className="text-center mt-3 mb-4">
         De participatieladder, die gebruikt wordt bij activerend werk, bestaat
         uit 6 tredes. Deze tredes zijn:
       </p>
       <Cards_Werk />
-      <p>
+      <p className="mt-3 mb-3">
         Binnen Activerend werk heb je zogenoemde stabiele trajecten en
         ontwikkelingstrajecten. We zullen hieronder kort uitleggen wat het
         verschil is tussen deze twee soorten trajecten.
       </p>
       <h3>Stabiel Traject</h3>
-      <p>
+      <p className="mt-3 mb-4">
         Een stabiel traject houdt in dat je voor een bepaalde tijd, tot maximaal
         2 jaar, op dezelfde trede blijft. Dit kan bijvoorbeeld verstandig zijn
         als een hogere trede nog niet haalbaar lijkt. We gaan dan samen met jou,
@@ -27,7 +27,7 @@ export default function Activerend_Werk() {
       </p>
 
       <h3>Ontwikkeltraject</h3>
-      <p>
+      <p className="mt-3 mb-4">
         Een ontwikkeltraject houdt in dat je van de ene naar de andere trede
         gaat. Dit duurt in principe 6 maanden en kan nog een keer verlengd
         worden met 6 maanden. De bedoeling is dat we samen een plan opstellen,
@@ -39,7 +39,7 @@ export default function Activerend_Werk() {
       </p>
 
       <h3>Moet ik dan al binnen 6 maanden betaald werken?</h3>
-      <p>
+      <p className="mt-3 mb-4">
         Op een hogere trede beginnen klinkt soms eng, omdat wanneer je begint
         met dit traject nog helemaal niet het gevoel hebt klaar te zijn voor
         betaald werk. Maar misschien is het na een ontwikkeltraject wel
@@ -53,7 +53,7 @@ export default function Activerend_Werk() {
       </p>
 
       <h3>Wat betekent zo’n trede nou eigenlijk?</h3>
-      <p>
+      <p className="mt-3 mb-4">
         De trede zegt niet veel over hoe goed je aan het werk bent, of hoe vaak
         je zal komen. Wel zegt het iets over de verantwoordelijkheden die je
         krijgt, de werkdruk of hoeveel tijd en ruimte je krijgt voor de

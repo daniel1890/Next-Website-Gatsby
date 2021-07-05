@@ -4,7 +4,7 @@ import { Card, CardColumns, CardDeck } from "react-bootstrap"
 export default function Cards_Werk() {
   return (
     <CardColumns>
-      <Card style={{ height: "12rem" }} className="sm-6 lg-4">
+      <Card bg="light-blue" style={{ height: "12rem" }} className="sm-6 lg-4">
         <Card.Body>
           <Card.Title className="text-center"> 1. Geïsoleerd. </Card.Title>
           <Card.Text>Er is geen contact buitenshuis.</Card.Text>

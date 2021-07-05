@@ -16,11 +16,11 @@ export default function Navbartest() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link>Activerend Werk</Nav.Link>
-          <Nav.Link>Werkzaamheden</Nav.Link>
-          <Nav.Link>Begeleiding</Nav.Link>
-          <Nav.Link>Aanmelden</Nav.Link>
-          <Nav.Link>Contact</Nav.Link>
+          <Nav.Link href="/activerend_werk">Activerend Werk</Nav.Link>
+          <Nav.Link href="/werkzaamheden">Werkzaamheden</Nav.Link>
+          <Nav.Link href="/begeleiding">Begeleiding</Nav.Link>
+          <Nav.Link href="/aanmelding">Aanmelden</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
