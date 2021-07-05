@@ -37,7 +37,7 @@ const Werkzaamheden = () => {
                     Natuurlijk ben je altijd van harte welkom om eens een kijkje te komen nemen, of een dagje mee te draaien. Ben je nu al nieuwschierig? Dan kun je via onderstaand filmpje alvast een indruk krijgen van wat we allemaal doen.
                 </p>
                 <Video
-                    videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    videoSrcURL="https://www.youtube.com/embed/wfOmI_OnJ9M"
                     videoTitle="Official Music Video on YouTube"
                 />
             </Container>
