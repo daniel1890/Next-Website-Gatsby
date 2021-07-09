@@ -18,6 +18,7 @@ Een simpele statische website gebouwt met gatsby.js. Deze website gaat deze pagi
 4. Pas de global.css zonodig aan naar voorkeuren en wanneer er teveel css op een pagina komt kier er dan voor om een module.css module te maken.
 5. Creeër een navbar component mbv react-bootstrap, bootstrap heeft een zelfgebouwde navbar waar je makkelijk een nette navbar creeërt die collapsed op de juiste grootte.
 6. Creeër een Footer, de indeling van de tekst in de footer wordt gedaan met bootstrap grid.
+7. Creeër nieuwe Navbar mbv react, de Navbar wordt een class inplaats van een const omdat "State" gebruikt gaat worden.
 
 ## Node Packages
 

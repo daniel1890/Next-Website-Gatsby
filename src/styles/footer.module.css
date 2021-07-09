@@ -28,13 +28,13 @@ footer .orange {
 
 @media (max-width: 525px) {
   footer {
-    height: 40em;
+    height: 42em;
   }
 }
 
 @media (max-width: 770px) {
   footer {
-    height: 32em;
+    height: 35em;
   }
 }
 

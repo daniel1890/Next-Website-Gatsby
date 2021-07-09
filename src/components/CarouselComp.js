@@ -9,7 +9,7 @@ export default function CarouselComp() {
       <Carousel.Item interval={5000}>
         <StaticImage
           className="d-block w-100"
-          height={400}
+          height={450}
           src="../images/foto1.png"
           alt="logo"
         />
@@ -22,7 +22,7 @@ export default function CarouselComp() {
       <Carousel.Item interval={5000}>
         <StaticImage
           className="d-block w-100"
-          height={400}
+          height={450}
           src="../images/foto2.png"
           alt="logo"
         />
@@ -35,7 +35,7 @@ export default function CarouselComp() {
       <Carousel.Item interval={5000}>
         <StaticImage
           className="d-block w-100"
-          height={400}
+          height={450}
           src="../images/foto3.png"
           alt="logo"
         />
@@ -48,7 +48,7 @@ export default function CarouselComp() {
       <Carousel.Item interval={5000}>
         <StaticImage
           className="d-block w-100"
-          height={400}
+          height={450}
           src="../images/foto4.png"
           alt="logo"
         />
@@ -61,7 +61,7 @@ export default function CarouselComp() {
       <Carousel.Item interval={5000}>
         <StaticImage
           className="d-block w-100"
-          height={400}
+          height={450}
           src="../images/foto5.png"
           alt="logo"
         />

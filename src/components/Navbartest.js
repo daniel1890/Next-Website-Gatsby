@@ -1,26 +1,41 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { Navbar, Nav, NavDropdown } from "react-bootstrap"
+import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap"
 
 export default function Navbartest() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="transparant" variant="light">
       <Navbar.Brand>
-        <div className="logo">
+        <div style={{ width: "250px" }}>
           <Link to="/">
-            <StaticImage src="../images/logo-nextwork2-1.png" alt="logo" />
+            <StaticImage src="../images/Next-logo.png" alt="logo" />
           </Link>
         </div>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/activerend_werk">Activerend Werk</Nav.Link>
-          <Nav.Link href="/werkzaamheden">Werkzaamheden</Nav.Link>
-          <Nav.Link href="/begeleiding">Begeleiding</Nav.Link>
-          <Nav.Link href="/aanmelding">Aanmelden</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          <Nav.Link as={Link} to="/activerend_werk">
+            Over Ons
+          </Nav.Link>
+          <Nav.Link as={Link} to="/werkzaamheden">
+            Cliënten
+          </Nav.Link>
+          <Nav.Link as={Link} to="/begeleiding">
+            Verwijzers
+          </Nav.Link>
+          <Nav.Link as={Link} className="mr-4" to="/aanmelding">
+            Rooster
+          </Nav.Link>
+          <Nav.Link className="ml-4">0636353066</Nav.Link>
+          <Nav.Link
+            as={Button}
+            className="rounded-0 text-white btn-warning mr-3"
+            href="/contact"
+          >
+            Contact
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

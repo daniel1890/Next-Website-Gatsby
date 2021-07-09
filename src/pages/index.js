@@ -1,46 +1,44 @@
 import React from "react"
 import Layout from "../components/Layout"
-import { Container } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import { content } from "../styles/index.module.css"
 import CarouselComp from "../components/CarouselComp"
 import Cards_Index from "../components/Cards_Index"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function Home() {
   return (
     <Layout>
       <CarouselComp />
-      <div className="page-container">
-        <div className="content-wrap">
-          <Container>
-            <div className="mt-5 mb-4">
-              <h3 className="text-center">Update: Corona Maatregelen</h3>
-              <p>
-                Wij zijn inmiddels weer geopend, maar wel met aanpassingen: Voor
-                onze locatie geldt de 1,5 meter regel. Wij verwachten dat
-                iedereen de afstand bewaart. Hiervoor hanteren wij een maximum
-                aantal personen in elke ruimte, en bij de lunch. Ook willen wij
-                vooraf precies weten wanneer je komt. Bij klachten blijf je
-                thuis en wordt er via telefoon contact gehouden. Bij binnenkomst
-                dienen de handen gedesinfecteerd te worden en dient het
-                werkoppervlak schoongemaakt te worden. Hier zijn materialen voor
-                aanwezig. Zo houden we het voor iedereen veilig en gezond. NEXT
-                biedt deskundige woon- en trainingstrajecten voor mensen die
-                zich verder willen ontwikkelen. Wij bieden een vorm van
-                individuele begeleiding en beschermd wonen die intensief is waar
-                nodig en op afstand indien gewenst. Dit alles doen wij in een
-                omgeving waar persoonlijk contact centraal staat. Samen richten
-                wij ons op het ontwikkelen van jouw leven in een richting waar
-                jij tevreden over bent. Als centraal doel hebben wij daarin het
-                vergroten van jouw zelfstandigheid. We kijken graag naar jou
-                kwaliteiten en helpen je bij dingen die je moeilijk vindt.
-                Tevens vragen wij jou om na te denken wat jij voor ons, of voor
-                anderen, kunt betekenen?
+      <Cards_Index />
+      <section className="bg-secondary p-5">
+        <Container>
+          <Row className="align-items-center justify-content-between">
+            <Col md>
+              <StaticImage
+                className="img-fluid"
+                src="../images/image_moustuin1.jpg"
+              ></StaticImage>
+            </Col>
+            <Col md className="p-5">
+              <h2>Lorem Ipsum</h2>
+              <p className="lead">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos
+                quo sed minus illum animi ipsum similique quia possimus facere?
+                Voluptatum repellat laboriosam nemo delectus at, voluptates
+                tempora minus totam quia quisquam harum ipsam culpa quo odio
+                mollitia! Ut, maiores? Id, tenetur explicabo autem laboriosam
+                fuga eum exercitationem dolore. Minima, itaque architecto
+                reprehenderit quod voluptatibus quos sint enim blanditiis ab
+                consequuntur natus recusandae. Debitis officia perspiciatis
+                quasi adipisci excepturi ipsa quod magni voluptates odio id
+                porro ipsam accusantium cumque repudiandae veniam quisquam
+                libero, deserunt in sequi cupiditate, tempora eveniet.
               </p>
-            </div>
-            <Cards_Index />
-          </Container>
-        </div>
-      </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </Layout>
   )
 }

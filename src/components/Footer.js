@@ -11,20 +11,29 @@ export default function Footer() {
         <div className={footertext}>
           <Row>
             <Col>
-              <h4 class="text-center">Next@Work</h4>
-              <p>
+              <h4 className="mb-3">NEXT Arnhem</h4>
+              <p className="">
                 Next biedt deskundige woon- en trainings trajecten voor mensen
                 die zich verder willen ontwikkelen. Wij bieden een vorm van
                 individuele begeleiding en beschermd wonen.
               </p>
             </Col>
-            <Col>
-              <h4>Colofon</h4>
+            <Col className="ml-5">
+              <h4 className="mb-3">Service</h4>
               <ul class="list-unstyled">
-                <li id="footerli">Next@Work</li>
-                <li id="footerli">Simon Stevinweg 20</li>
-                <li id="footerli">6827 BT Arnhem</li>
-                <li id="footerli">T: 06-14442893</li>
+                <li id="footerli">Privary verklaring NEXT</li>
+                <li id="footerli">Klachtenformulier NEXT</li>
+                <li id="footerli">Klachtenverslag</li>
+                <li id="footerli">Klachtenreglement</li>
+              </ul>
+            </Col>
+            <Col>
+              <h4 className="mb-3">NEXT Arnhem</h4>
+              <ul class="list-unstyled">
+                <li id="footerli">Rosendalsestraat 414</li>
+                <li id="footerli">6824 CS Arnhem</li>
+                <br />
+                <li id="footerli">T: 06-36353066</li>
                 <li id="footerli">E: info@nextatwork.nl</li>
               </ul>
             </Col>
@@ -33,7 +42,9 @@ export default function Footer() {
           <Row>
             <Col></Col>
             <Col class="col-xs-0 col-sm-6">
-              <p class="footer-text text-center">Copyright {today} | Daniël Codes</p>
+              <p class="footer-text text-center">
+                Copyright {today} | Daniël Codes
+              </p>
             </Col>
             <Col></Col>
           </Row>
