@@ -1,7 +1,7 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import { Navbar, Nav, NavDropdown, Button } from "react-bootstrap"
+import { Navbar, Nav, Button } from "react-bootstrap"
 
 export default function Navbartest() {
   return (

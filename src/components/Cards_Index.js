@@ -1,7 +1,6 @@
 import React from "react"
 import { CardDeck, Card, Button, Row, Col } from "react-bootstrap"
 import { Link } from "gatsby"
-import { contentwrap } from "../styles/cards.module.css"
 import { StaticImage } from "gatsby-plugin-image"
 
 export default function Cards() {

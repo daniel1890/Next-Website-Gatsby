@@ -1,5 +1,4 @@
 import React from "react"
-import { Card, CardColumns, CardDeck } from "react-bootstrap"
 import Layout from "../components/Layout"
 import Cards_Werk from "../components/Cards_Werk"
 

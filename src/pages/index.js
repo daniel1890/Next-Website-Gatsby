@@ -1,16 +1,26 @@
 import React from "react"
 import Layout from "../components/Layout"
 import { Container, Row, Col } from "react-bootstrap"
-import { content } from "../styles/index.module.css"
 import CarouselComp from "../components/CarouselComp"
 import Cards_Index from "../components/Cards_Index"
 import { StaticImage } from "gatsby-plugin-image"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTimes, faBars } from "@fortawesome/free-solid-svg-icons"
 
 export default function Home() {
   return (
     <Layout>
+      <div>
+        <h1 style={{ textAlign: "center" }}>Gatsby Font Awesome example</h1>
+        <div>
+          <FontAwesomeIcon icon={faTimes} size="1x" />
+          <FontAwesomeIcon icon={faBars} size="2x" />
+        </div>
+      </div>
       <CarouselComp />
+
       <Cards_Index />
+
       <section className="bg-secondary p-5">
         <Container>
           <Row className="align-items-center justify-content-between">
